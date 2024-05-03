@@ -1,0 +1,41 @@
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Flower Shop - Order</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Flower Shop - Order</h1>
+  </header>
+  <nav>
+    <a href="welcome.html">Home</a>
+    <a href="home.html">Flowers</a>
+    <a href="wpa6.html">Order</a>
+    <a href="feedback.html">Feedback</a>
+    <a href="admin.html">Admin</a>
+
+  </nav>
+  <div class="container">
+    <h2>Place an Order</h2>
+    <div class="form-container">
+      <form>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Your Email:</label>
+        <input type="text" id="email" name="email" required>
+        <label for="address">Delivery Address:</label>
+        <textarea id="address" name="address" required></textarea>
+        <label for="flower">Flower Selection:</label><br>
+        <select id="flower" name="flower" required>
+          <option value="" disabled selected>Select a flower</option>
+          <option value="flower1">Dahilia</option>
+          <option value="flower2">Rose</option>
+          <option value="flower2">Sunflower</option>
+        </select><br>
+        <button type="submit">Place Order</button>
+      </form>
+    </div>
+  </div>
+</body></html>
